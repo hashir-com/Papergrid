@@ -19,6 +19,9 @@ body{
     width: 2031px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.08);
 }
+.shipping-link.visible{
+    top: 0;
+}
 .shipping-link:hover{
     background-color: rgba(0, 0, 0, 0.897);
 }
@@ -44,6 +47,8 @@ sticky-header{
     width: 2031px;
     display: grid;
     background-color: rgba(0, 0, 0,0.94);
+    position: sticky;
+    top: 0;
 }
 .header{
     display: grid;
@@ -121,7 +126,7 @@ width: 100%;
     width: 48px;
     position: absolute;
     right: 398px;
-    top: 61px;
+    top: 21px;
     transition-duration: 0.2s;
 }
 .cart2:hover{
