@@ -44,7 +44,7 @@ sticky-header{
     width: 2031px;
     display: grid;
     background-color: rgba(0, 0, 0,0.94);
-    position: static;
+    position: sticky;
     top: 0;
 }
 .header{
